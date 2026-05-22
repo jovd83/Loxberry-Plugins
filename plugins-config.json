@@ -1,0 +1,64 @@
+{
+  "githubUsername": "jovd83",
+  "targetTopics": [
+    "loxberry-plugin",
+    "loxberry-plugins"
+  ],
+  "categories": [
+    {
+      "name": "Energy & batteries",
+      "description": "Plugins that integrate solar inverters, home batteries, energy meters, and other energy-related devices with Loxone.",
+      "subcategories": [
+        {
+          "name": "Battery & storage",
+          "description": "Bridges between home battery / storage systems (or their clouds) and the Loxone Miniserver.",
+          "topics": [
+            "marstek",
+            "battery",
+            "storage",
+            "inverter",
+            "energy",
+            "solar",
+            "pv"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Garden & outdoor",
+      "description": "Plugins for robotic mowers, irrigation, and other outdoor automation devices.",
+      "subcategories": [
+        {
+          "name": "Robotic mowers",
+          "description": "Bridges between robotic lawn mowers and the Loxone Miniserver.",
+          "topics": [
+            "robot-mower",
+            "mower",
+            "mammotion",
+            "luba",
+            "yuka"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tools & generators",
+      "description": "Tooling that helps create, scaffold, or maintain LoxBerry plugins rather than integrate a specific device.",
+      "subcategories": [
+        {
+          "name": "Plugin generators",
+          "description": "Code generators and scaffolding tools that produce LoxBerry plugin projects.",
+          "topics": [
+            "plugin-generator",
+            "code-generation",
+            "scaffolding"
+          ]
+        }
+      ]
+    }
+  ],
+  "defaultCategory": "Other LoxBerry plugins",
+  "defaultCategoryDescription": "Plugins that do not yet fit one of the categories above.",
+  "defaultSubcategory": "Uncategorized",
+  "defaultSubcategoryDescription": "These plugins have not been assigned a category yet. Add a matching topic on the GitHub repository (see plugins-config.json) to slot them in automatically."
+}
