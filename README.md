@@ -15,7 +15,7 @@ Useful links:
 
 ## Plugins
 
-Below is the live list of my LoxBerry plugin repositories (3 total). Each entry links to its GitHub repository and includes the repo's own description. Categorization is driven by GitHub topics — see [`plugins-config.json`](plugins-config.json) for the topic-to-category mapping.
+Below is the live list of my LoxBerry plugin repositories (4 total). Each entry links to its GitHub repository and includes the repo's own description. Categorization is driven by GitHub topics — see [`plugins-config.json`](plugins-config.json) for the topic-to-category mapping.
 
 ## Energy & batteries
 
@@ -52,6 +52,18 @@ Code generators and scaffolding tools that produce LoxBerry plugin projects.
 - **[loxberry-integrator](https://github.com/jovd83/loxberry-integrator)** — Agent skill that generates GitHub-ready LoxBerry plugin projects integrating devices, services, APIs, or protocols (MQTT, REST, UDP, Modbus, WebSocket) with a Loxone Miniserver.
 
   *Topics:* `agentskills`, `code-generation`, `homeautomation`, `loxberry`, `loxberry-plugin`, `modbus`, `mqtt`, `plugin-generator`, `smarthome`
+
+## Other LoxBerry plugins
+
+Plugins that do not yet fit one of the categories above.
+
+### Uncategorized
+
+These plugins have not been assigned a category yet. Add a matching topic on the GitHub repository (see plugins-config.json) to slot them in automatically.
+
+- **[Loxberry-Plugins](https://github.com/jovd83/Loxberry-Plugins)** — An overview of my LoxBerry plugins — auto-rebuilt daily from GitHub topics.
+
+  *Topics:* `loxberry`, `loxberry-plugin`, `loxone`
 
 ## How this list is maintained
 
