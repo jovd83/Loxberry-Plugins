@@ -15,7 +15,7 @@ Useful links:
 
 ## Plugins
 
-Below is the live list of my LoxBerry plugin repositories (4 total). Each entry links to its GitHub repository and includes the repo's own description. Categorization is driven by GitHub topics — see [`plugins-config.json`](plugins-config.json) for the topic-to-category mapping.
+Below is the live list of my LoxBerry plugin repositories (6 total). Each entry links to its GitHub repository and includes the repo's own description. Categorization is driven by GitHub topics — see [`plugins-config.json`](plugins-config.json) for the topic-to-category mapping.
 
 ## Energy & batteries
 
@@ -60,6 +60,14 @@ Plugins that do not yet fit one of the categories above.
 ### Uncategorized
 
 These plugins have not been assigned a category yet. Add a matching topic on the GitHub repository (see plugins-config.json) to slot them in automatically.
+
+- **[LoxBerry-Plugin-myUplink](https://github.com/jovd83/LoxBerry-Plugin-myUplink)** — LoxBerry plugin that bridges myUplink-connected heat pumps (NIBE, CTC, Novelan, Alpha Innotec) to a Loxone Miniserver via MQTT
+
+  *Topics:* `loxberry`, `loxberry-plugin`, `loxone`, `myuplink`
+
+- **[LoxBerry-Plugin-roborock-coupler](https://github.com/jovd83/LoxBerry-Plugin-roborock-coupler)** — LoxBerry plugin that bridges Roborock vacuum cleaners to a Loxone Miniserver via the LoxBerry MQTT broker and MQTT Gateway
+
+  *Topics:* `home-automation`, `loxberry`, `loxberry-plugin`, `loxone`, `mqtt`, `roborock`, `smart-home`, `vacuum-cleaner`
 
 - **[Loxberry-Plugins](https://github.com/jovd83/Loxberry-Plugins)** — An overview of my LoxBerry plugins — auto-rebuilt daily from GitHub topics.
 
