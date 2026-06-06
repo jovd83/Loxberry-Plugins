@@ -39,8 +39,11 @@ async function fetchAllRepos() {
 }
 
 function processRepos(repos, config) {
+    const excludeRepos = (config.excludeRepos || []).map(name => name.toLowerCase());
+
     const pluginRepos = repos.filter(repo => {
         if (repo.fork || repo.archived) return false;
+        if (excludeRepos.includes(repo.name.toLowerCase())) return false;
         if (!repo.topics) return false;
         return repo.topics.some(topic => TARGET_TOPICS.includes(topic.toLowerCase()));
     });

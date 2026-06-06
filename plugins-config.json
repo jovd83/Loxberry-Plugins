@@ -4,10 +4,13 @@
     "loxberry-plugin",
     "loxberry-plugins"
   ],
+  "excludeRepos": [
+    "Loxberry-Plugins"
+  ],
   "categories": [
     {
       "name": "Energy & batteries",
-      "description": "Plugins that integrate solar inverters, home batteries, energy meters, and other energy-related devices with Loxone.",
+      "description": "Plugins that integrate solar inverters, home batteries, energy meters, heat pumps, and other energy-related devices with Loxone.",
       "subcategories": [
         {
           "name": "Battery & storage",
@@ -20,6 +23,18 @@
             "energy",
             "solar",
             "pv"
+          ]
+        },
+        {
+          "name": "Heat pumps & climate",
+          "description": "Bridges between heat pumps, ventilation, and other climate systems (or their clouds) and the Loxone Miniserver.",
+          "topics": [
+            "myuplink",
+            "nibe",
+            "heat-pump",
+            "heatpump",
+            "hvac",
+            "ventilation"
           ]
         }
       ]
@@ -37,6 +52,22 @@
             "mammotion",
             "luba",
             "yuka"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indoor",
+      "description": "Plugins for robot vacuums, indoor climate, and other in-home automation devices.",
+      "subcategories": [
+        {
+          "name": "Robot vacuums",
+          "description": "Bridges between robot vacuum / mop cleaners (or their clouds) and the Loxone Miniserver.",
+          "topics": [
+            "roborock",
+            "vacuum-cleaner",
+            "vacuum",
+            "robot-vacuum"
           ]
         }
       ]
